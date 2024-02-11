@@ -1,0 +1,104 @@
+/* styles.css */
+
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    color: #666;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #4CAF50;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+    margin-top: 20px;
+    display: inline-block;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #45a049;
+}
+
+/* Background Images */
+.login-bg {
+    /* background-image: url('https://source.unsplash.com/1920x1080/?city,road'); */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.home-bg {
+    /* background-image: url('https://source.unsplash.com/1920x1080/?car,street'); */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.about-bg {
+    /* background-image: url('https://source.unsplash.com/1920x1080/?building,urban'); */
+    background-size: fill;
+    background-position: center;
+    color: #fff;
+}

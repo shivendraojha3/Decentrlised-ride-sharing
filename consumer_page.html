@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumer Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <nav style="background-color: #333; padding: 10px;">
+        <ul style="list-style-type: none; margin: 0; padding: 0; display: flex; justify-content: center;">
+            <li style="margin-right: 50px;"><a href="home.html" style="text-decoration: none; color: white; padding: 25px;">Home</a></li>
+            <li style="margin-right: 50px;"><a href="consumer_page.html" style="text-decoration: none; color: white; padding: 25px;">Consumer</a></li>
+            <li style="margin-right: 50px;"><a href="provider_page.html" style="text-decoration: none; color: white; padding: 25px;">Provider</a></li>
+            <li><a href="about.html" style="text-decoration: none; color: white; padding: 15px;">About</a></li>
+        </ul>
+    </nav>
+    
+    
+    
+    
+    <div class="container">
+        <h1>Consumer Section</h1>
+        <form action="#">
+            <label for="timings">Timings:</label>
+            <input type="text" id="timings" name="timings">
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location">
+
+            <label for="date">Date:</label>
+            <input type="text" id="date" name="date">
+
+            <label for="vehicle-type">Vehicle Type:</label>
+            <select id="vehicle-type" name="vehicle-type">
+                <option value="car">Car</option>
+                <option value="bike">Bike</option>
+                <option value="scooter">Scooter</option>
+            </select>
+
+            <label for="cost-range">Cost Range:</label>
+            <input type="text" id="cost-range" name="cost-range">
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

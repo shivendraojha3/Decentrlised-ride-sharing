@@ -1,0 +1,14 @@
+{
+    "rider1": {
+        "identity_key": "7ae51ec1ca75a298accc6ac8269ea408fdd2569ef8cca8916b8dbe6295378aba",
+        "wallet_key": "cNdXGWUm4oWTzeHCEvZ9NjMX6gygaV5FNoff85y6NHI="
+    },
+    "driver1": {
+        "identity_key": "2e8f1869b1cc51006e7ecd082048ed0ec8204828b90ac6df864ea53caa34bea1",
+        "wallet_key": "EjEiWJv2TntW/3vhAi0Sxqg28zGJ7AeQuBoXa3FRke4="
+    },
+    "driver2": {
+        "identity_key": "636b2d90ae2fb9ef98cc47f2390972308ba368eccd633a67ede82ea54f69fe83",
+        "wallet_key": "9gJmgcdlmKh3mOV0dTTaVCLsdDzsq2+V2cj1k4a59SA="
+    }
+}
